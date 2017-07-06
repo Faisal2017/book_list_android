@@ -15,7 +15,7 @@ public class TopBooks {
         list.add(new Book(1, "The Name of the Wind", "Patrick Rothfuss"));
         list.add(new Book(2, "Half a King", "Joe Abercrombie"));
         list.add(new Book(3, "The Magicians", "Lev Grossman"));
-        list.add(new Book(4, "Locke Lamora", "Scott Lynch"));
+        list.add(new Book(4, "The Lies of Locke Lamora", "Scott Lynch"));
         list.add(new Book(5, "Ender's Game", "Orson Scott"));
         list.add(new Book(6, "The First Law", "Joe Abercrombie"));
         list.add(new Book(7, "Liveship Traders", "Robin Hobb"));

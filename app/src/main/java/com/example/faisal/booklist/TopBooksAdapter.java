@@ -9,6 +9,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import static com.example.faisal.booklist.R.id.parent;
+
 /**
  * Created by Faisal on 05/07/2017.
  */
@@ -18,8 +20,9 @@ public class TopBooksAdapter extends ArrayAdapter<Book> {
     public TopBooksAdapter(Context context, ArrayList<Book> list) {
 
         super(context, 0, list);
+    }
 
-        @Override
+
         public View getView(int position, View listItemView, ViewGroup parent) {
 
             if (listItemView == null) {
